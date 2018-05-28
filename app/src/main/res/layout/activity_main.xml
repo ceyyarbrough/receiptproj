@@ -9,18 +9,18 @@
     <Button
         android:id="@+id/loginButton1"
         style="@android:style/Widget.Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="153dp"
+        android:layout_height="46dp"
         android:text="Log In"
-        tools:layout_editor_absoluteX="43dp"
-        tools:layout_editor_absoluteY="428dp" />
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="425dp" />
 
     <Button
         android:id="@+id/signupButton1"
         style="@android:style/Widget.Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="153dp"
+        android:layout_height="46dp"
         android:text="Sign Up"
-        tools:layout_editor_absoluteX="243dp"
-        tools:layout_editor_absoluteY="428dp" />
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="425dp" />
 </android.support.constraint.ConstraintLayout>
