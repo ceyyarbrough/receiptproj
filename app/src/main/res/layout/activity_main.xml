@@ -7,20 +7,18 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/loginButton1"
-        style="@android:style/Widget.Button"
-        android:layout_width="153dp"
-        android:layout_height="46dp"
-        android:text="Log In"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="425dp" />
-
-    <Button
         android:id="@+id/signupButton1"
-        style="@android:style/Widget.Button"
         android:layout_width="153dp"
         android:layout_height="46dp"
         android:text="Sign Up"
         tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+    <Button
+        android:id="@+id/loginButton1"
+        android:layout_width="139dp"
+        android:layout_height="43dp"
+        android:text="login"
+        tools:layout_editor_absoluteX="32dp"
         tools:layout_editor_absoluteY="425dp" />
 </android.support.constraint.ConstraintLayout>

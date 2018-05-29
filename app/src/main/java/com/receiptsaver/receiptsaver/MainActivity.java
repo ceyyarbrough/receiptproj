@@ -10,7 +10,10 @@ public class MainActivity extends AppCompatActivity  {
 
 
     private Button loginButton1;
+    private Button signupButton1;
 
+
+    //When login button is clicked
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +21,8 @@ public class MainActivity extends AppCompatActivity  {
 
         loginButton1 = (Button) findViewById(R.id.loginButton1);
         loginButton1.setOnClickListener(new View.OnClickListener() {
+
+
             @Override
             public void onClick(View v) {
                 loginPageOpen();
@@ -25,11 +30,28 @@ public class MainActivity extends AppCompatActivity  {
         });
     }
 
+
+
+        signupButton1 = (Button) findViewById(R.id.signupButton1);
+        signupButton1.setOnClickListener(new View.OnClickListener() {
+
+
+            @Override
+            public void onClick(View v) {
+                signupPageOpen();
+            }
+        });
+    }
+
+
     public void loginPageOpen(){
         Intent openLoginPage = new Intent(this, loginMain.class);
         startActivity(openLoginPage);
     }
-
+    public void signupPageOpen(){
+        Intent openSignupPage = new Intent(this, signupMain.class);
+        startActivity(openSignupPage);
+    }
 
 
 }
